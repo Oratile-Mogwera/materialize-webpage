@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="top-section">
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col s12 m6 16">
+                    <p class="name">{{user.fullName}}</p>
+                </div>
+                <div class="col s12 m6 16">
+                    <img class="picture1" src="{{user.photo}}" alt="Oratile Pic">
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="city-name-text">{{city.name}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="picture2" src="{{city.photo}}" alt="City">
+            </div>
+            <div class="col">
+                <p class="description">{{city.description}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="city-name-text">{{foreignLanguage.name}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <h2>{{foreignLanguage.heading}}</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <table class="table">
+            {{#each foreignLanguage.phrases}}
+            <tr>
+                <td>{{englishPhrase}}</td>
+                <td>{{foreignLanguage}}</td>
+            </tr>
+            {{/each}}
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="col">
+                <h2>{{favouriteSubjects.title}}</h2>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col">
+            
+            <div class="contain">
+                
+                <div class="subject">
+                    <h4>Business Intelligence</h4>
+                    <img src="./BI.jpeg" alt="Business Intelligence">
+                    <p>Business Intelligence because it empowers you to transform raw data into actionable insights, driving strategic decisions and business growth. I relish the challenge of analyzing trends, discovering patterns, and providing data-driven recommendations. This role allows you to blend analytical skills with strategic thinking, making a tangible impact on your organization.</p>
+                </div>
+            
+                <div class="subject">
+                    <h4>Electronic Records </h4>
+                    <img src="./ElecRec.jpeg" alt="Electronic Records Management">
+                    <p>I love Electronic Records Management because it enables you to organize, secure, and streamline access to critical information, enhancing efficiency and compliance. I appreciate the precision and structure it brings to managing data, reducing clutter and ensuring accurate record-keeping. This role allows you to contribute to the smooth functioning of your organization, safeguarding valuable information and supporting informed decision-making.</p>
+                </div>
+            
+                <div class="subject">
+                    <h4>Competitive Intelligence</h4>
+                    <img src="./FullStack.jpeg" alt="Competitive Intelligence">
+                    <p>Competitive intelligence, sometimes referred to as corporate intelligence, refers to the ability to gather, analyze, and use information collected on competitors, customers, and other market factors that contribute to a business's competitive advantage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

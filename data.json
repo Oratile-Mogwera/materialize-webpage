@@ -1,0 +1,45 @@
+{
+    "user": {
+        "fullName": "Oratile Mogwera",
+        "photo": "./PicO.png"
+    },
+    "city": {
+        "name": "Paris",
+        "photo": "./Pariss.jpeg",
+        "description": "The most romantic city in the world, Paris is a global center for art, fashion, gastronomy, and culture. Paris returns to tranquillity in the autumn and when winter and the holidays arrive, Paris' streets are illuminated, revealing the city's magic."
+    },
+    "foreignLanguage": {
+        "language": "French",
+        "heading": "Foreign Languages: French",
+        "phrases": [
+            {
+                "englishPhrase": "Hello, how are you?",
+                "foreignLanguage": "Bonjour, comment ça va ?"
+            },
+            {
+                "englishPhrase": "I love French cuisine.",
+                "foreignLanguage": "J'adore la cuisine française."
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "title": "Favourite Subjects"
+        },
+        {
+            "name": "Business Intelligence",
+            "photo": "./BI.jpeg",
+            "description": "Business Intelligence because it empowers you to transform raw data into actionable insights, driving strategic decisions and business growth. I relish the challenge of analyzing trends, discovering patterns, and providing data-driven recommendations. This role allows you to blend analytical skills with strategic thinking, making a tangible impact on your organization."
+        },
+        {
+            "name": "Electronic Records",
+            "photo": "./ElecRec",
+            "description": "I love Electronic Records Management because it enables you to organize, secure, and streamline access to critical information, enhancing efficiency and compliance. I appreciate the precision and structure it brings to managing data, reducing clutter and ensuring accurate record-keeping. This role allows you to contribute to the smooth functioning of your organization, safeguarding valuable information and supporting informed decision-making."
+        },
+        {
+            "name": "Competitive Intelligence",
+            "photo": ".FullStack",
+            "description": "Competitive intelligence, sometimes referred to as corporate intelligence, refers to the ability to gather, analyze, and use information collected on competitors, customers, and other market factors that contribute to a business's competitive advantage."
+        }
+    ]
+}

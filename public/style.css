@@ -1,0 +1,83 @@
+.top-section {
+    background-image: url(./CapeT.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+.name-text {
+    font-size: x-large;
+
+}
+.name{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.fav-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+.container {
+    overflow-x: auto;
+}
+.city-name-text {
+    font-size: x-large;
+    font-weight: bold;
+}
+.picture1 {
+    width: 300px;
+    height: 270px;
+}
+.picture2 {
+    margin-top: 20px;
+}
+.table tr td{
+    border: 10px black;
+    border-collapse: collapse;
+}
+/* .explain {
+    margin-left: 300px;
+    margin-top: -170px;
+} */
+.contain {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    width: 100%;
+    text-align: center;
+}
+.heading {
+    font-size: x-large;
+}
+.description {
+    margin-left: 300px;
+    margin-top: -170px;
+}
+
+@media (max-width: 960px) {
+    .name-text{
+        text-align: center;
+    }
+    .picture1{
+        margin-left: 4em;
+    }
+    .picture2{
+        width: 100%;
+        justify-content: center;
+    }
+    .contain {
+        flex-direction: column;
+        flex: 1;
+    }
+    .box{
+        width: 100%;
+    }
+    .top-section{
+        width: 100%;
+    }
+    .description {
+        margin-top: 40px;
+        margin-left: 1px;
+    }
+}
